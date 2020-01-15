@@ -42,7 +42,7 @@ interface RuleMetaData<TMessageIds extends string> {
   /**
    * Documentation for the rule
    */
-  docs: RuleMetaDataDocs;
+  docs?: RuleMetaDataDocs;
   /**
    * The fixer category. Omit if there is no fixer
    */
